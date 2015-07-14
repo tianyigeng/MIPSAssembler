@@ -118,9 +118,6 @@ def main():
         return
     input_file = open(sys.argv[1], 'r')
     output_file= open(sys.argv[2], 'w')
-    # match_hex32b = re.compile('[0-9a-fA-F]{8}')
-    # START_ADDR = 0
-    # now_addr = START_ADDR
 
     currLineNum = 0
     lookupLabel = {}
